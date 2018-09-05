@@ -1,0 +1,112 @@
+//Settings
+
+{
+	"auto_complete": true,	
+	"caret_style": "phase",
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"detect_indentation": false,
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Courier Primal",
+	"font_options":
+	[
+	],
+	"font_size": 14,
+	"highlight_line": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Bootstrap 3 Autocomplete",
+		"Bootstrap 3 Snippets",
+		"CSS Extended Completions"
+	],
+	"line_padding_bottom": 10,
+	"line_padding_top": 10,
+	"scroll_past_end": true,
+	"tab_size": 6,
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
+
+//Key Bindings
+
+[
+  { "keys": ["alt+e"], "command": "expand_fqcn" },
+  { "keys": ["shift+f6"], "command": "expand_fqcn", "args": {"leading_separator": true} },
+  { "keys": ["alt+u"], "command": "find_use" },
+  { "keys": ["f4"], "command": "import_namespace" },
+  { "keys": ["f3"], "command": "implement" },
+  { "keys": ["shift+f12"], "command": "goto_definition_scope" },
+  { "keys": ["alt+c"], "command": "insert_php_constructor_property" },
+  { "keys": ["alt+a"], "command": "advanced_new_file_new"}
+]
+
+//Package Settings
+
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"AngularJS",
+		"AngularJS Snippets",
+		"Autoprefixer",
+		"Babel",
+		"Blade Snippets",
+		"Bootstrap 3 Autocomplete",
+		"Bootstrap 3 Snippets",
+		"Bootstrap 4 Autocomplete",
+		"Bootstrap 4 Snippets",
+		"Color Highlighter",
+		"ColorPicker",
+		"CSS Extended Completions",
+		"Dayle Rees Color Schemes",
+		"DocBlockr",
+		"Emmet",
+		"Emmet Css Snippets",
+		"Express Completion",
+		"ExpressComplete",
+		"FindKeyConflicts",
+		"Git",
+		"GitGutter",
+		"HTML Extended",
+		"HTML5",
+		"HTMLAttributes",
+		"JavaScript & NodeJS Snippets",
+		"JavaScript Completions",
+		"JavaScriptFunctionDefinition",
+		"jQuery",
+		"Laravel 4 Artisan",
+		"Laravel 5 Artisan",
+		"Laravel 5 Snippets",
+		"Laravel Blade Highlighter",
+		"Laravel Helper Completions",
+		"Material Theme",
+		"Minify",
+		"Monokai - Spacegray",
+		"Node Completions",
+		"Nodejs",
+		"Package Control",
+		"PHP Companion",
+		"PHP CS Fixer",
+		"React Templates",
+		"ReactJS",
+		"Sass",
+		"SASS Snippets",
+		"Seti_UI",
+		"SnippetMaker",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-phplint",
+		"Theme - Spacegray",
+		"TypeScript",
+		"TypescriptCompletion",
+		"Vue Syntax Highlight",
+		"Vuejs Complete Package",
+		"Vuejs Snippets"
+	]
+}
